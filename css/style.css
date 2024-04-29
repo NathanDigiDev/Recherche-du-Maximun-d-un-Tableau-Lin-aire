@@ -1,0 +1,68 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #4b97ed;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#recherche label {
+  padding: 0 10px;
+}
+#recherche input {
+  padding: 5px;
+  width: 75px;
+}
+#recherche button {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+#recherche button:hover {
+  background-color: #555;
+  transition: background-color 0.7s;
+}
+
+#tableau input {
+  padding: 5px;
+  margin: 0 5px;
+  width: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+#tableau button {
+  margin-top: 25px;
+  margin-left: 25px;
+  padding: 10px;
+  background-color: #f41b35;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#tableau p {
+  padding: 5px;
+}
+
+#tableau p span {
+  font-weight: bold;
+  color: yellow;
+  font-size: 2rem;
+}
